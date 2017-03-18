@@ -47,7 +47,6 @@ var server = new http.Server(function (req, res) {
 // }, 1000);
 //*******
 //Решение#3
-//
 setTimeout(function () {
     server.close();
 }, 2500);
